@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <div className="col-md-6">
           <img
-            src="/public/image/final.jpg"
+            src="/image/final.jpg"
             alt="عن المطعم"
             className="img-fluid rounded shadow"
           />
