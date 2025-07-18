@@ -1,0 +1,114 @@
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+body {
+  background-color: #6c0719;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent !important;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(255 193 7) !important;
+  cursor: pointer;
+  color: #6c0719 !important;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #37030d;
+}
+.col {
+  color: wheat !important;
+}
+.icon-facebook {
+  color: #1877f2;
+}
+
+.icon-instagram {
+  color: #e98396;
+}
+
+.icon-twitter {
+  color: #1da1f2;
+}
+
+.icon-youtube {
+  color: #ff0000;
+}
+
+.icon-linkedin {
+  color: #0077b5;
+}
+
+.icon-tiktok {
+  color: #000000;
+}
+
+label {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: wheat !important;
+}
+input {
+  border-radius: 8px;
+  border: 1px solid transparent !important;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: wheat !important;
+  color: #6c0719 !important;
+}
+textarea {
+  border-radius: 8px;
+  border: 1px solid transparent !important;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: wheat !important;
+  color: #6c0719 !important;
+}
+input:focus {
+  outline: none;
+  border: none !important;
+}
+/* كمان عند كل Breakpoint بيتغير الـ max-width */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

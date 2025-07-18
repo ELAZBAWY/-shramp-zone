@@ -1,0 +1,9 @@
+/* Responsive styles for Contact container and top section on small screens */
+@media (max-width: 767px) {
+  .container {
+    width: 100vh;
+  }
+  .top {
+    margin-bottom: 4rem !important;
+  }
+}

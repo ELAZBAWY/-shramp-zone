@@ -1,0 +1,33 @@
+/* Responsive navigation styles for Navbar and links */
+@media (max-width: 768px) {
+  nav .container-fluid .links ul {
+    display: none;
+  }
+  nav .container-fluid {
+    width: 100vh;
+    padding: 0 !important;
+  }
+
+  /* Responsive search container styles */
+  .search-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  .search-input {
+    position: relative;
+    border-radius: 10px;
+    background-color: wheat;
+  }
+
+  /* Responsive search icon styles */
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+  }
+}

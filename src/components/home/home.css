@@ -1,0 +1,138 @@
+/* Main container for Home section */
+.home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background image styles for Home section */
+.home .image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  filter: brightness(0.7);
+}
+
+/* Home content container */
+.home-container {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive width for Home section on small screens */
+@media (max-width: 768px) {
+  .home {
+    width: 100vh;
+  }
+}
+
+/* Heading styles for Home content */
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: wheat;
+}
+
+/* Paragraph styles for Home content */
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Discount section container */
+.discount-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #690417;
+  color: #fff;
+  text-align: center;
+}
+
+/* Responsive padding and width for Discount section on small screens */
+@media (max-width: 768px) {
+  .discount-section.container {
+    padding-right: 40px;
+    width: 100vh;
+  }
+}
+
+/* Discount box styles */
+.discount-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #800020;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Reverse direction for Discount box */
+.discount-box.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Discount text container */
+.discount-text {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Title styles for Discount text */
+.discount-text .title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffdb4d;
+}
+
+/* Description styles for Discount text */
+.discount-text .desc {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f5deb3;
+}
+
+/* Claim button styles */
+.claim-btn {
+  padding: 10px 20px;
+  background-color: #f5deb3;
+  color: #690417;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect for Claim button */
+.claim-btn:hover {
+  background-color: #fff0c2;
+}
+
+/* Discount image container */
+.discount-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Discount image styles */
+.discount-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
