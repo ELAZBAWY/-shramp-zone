@@ -1,7 +1,7 @@
 // Menu page component with recipes and cart sidebar
 import { useEffect, useState, useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Menu.css";
+import "./menu.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { CartContext } from "../../CartContext";
